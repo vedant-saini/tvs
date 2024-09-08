@@ -1,0 +1,41 @@
+body {
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body height covers full viewport */
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Allow main content to expand to take up available space */
+}
+
+#content {
+    padding-bottom: 60px; /* Ensure this matches or exceeds the footer height */
+}
+
+footer {
+    
+    color: rgb(6, 6, 6);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

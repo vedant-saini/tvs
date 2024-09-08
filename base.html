@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVS Credit Loan Risk Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>TVS Credit Loan Risk Prediction</h1>
+        <nav>
+            <a href="{{ url_for('main.home') }}">Home</a>
+            <a href="{{ url_for('main.predict') }}">Predict</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 TVS Credit</p>
+    </footer>
+</body>
+</html>
