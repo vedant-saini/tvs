@@ -1,12 +1,12 @@
-Loan Risk Prediction System
+**Loan Risk Prediction System**
 
-Overview
+**Overview**
 
 The Loan Risk Prediction System is a web-based application designed to predict the risk associated with loan approvals. 
 By leveraging a machine learning model, the system provides real-time predictions based on applicant data, helping financial institutions 
 automate and streamline the loan approval process.
 
-Features
+**Features**
 
 Real-Time Predictions: Utilize a machine learning model to predict loan approval outcomes instantly.
 
